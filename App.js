@@ -23,7 +23,7 @@ export default function App() {
             } else if (route.name === 'Events') {
               iconName = 'list';
             } else if (route.name === 'Contact') {
-              iconName = 'phone';
+              iconName = focused ? "user":"user-o";
             }
 
             // You can return any component that you like here!
